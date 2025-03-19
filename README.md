@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# Text Display App 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple mobile application that helps display text in large font size. Perfect for those who need to communicate through text display.
 
-## Get started
+```bash
+npx expo prebuild --platform ios
+```
 
-1. Install dependencies
+## Features ✨
 
+- Easy text input
+- Large text display
+- Quick text sharing
+- Simple and intuitive interface
+- Works on both iOS and Android
+
+## Getting Started 🚀
+
+1. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. Start the app:
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run on your device:
+   - Scan the QR code with the Expo Go app
+   - Or run on emulator/simulator:
+     - For Android: Press 'a'
+     - For iOS: Press 'i' (requires macOS)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## How to Use 📖
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Type your text in the input area
+2. Press Enter or tap "Display" to show the text in large font
+3. Use "Clear" to erase the text
+4. Use "Share" to share the displayed text with other apps
 
-## Get a fresh project
+## Building for Production 🏗️
 
-When you're ready, run:
-
+### For Android:
 ```bash
-npm run reset-project
+eas build -p android --profile production
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### For iOS:
+```bash
+eas build -p ios --profile production
+```
 
-## Learn more
+Note: iOS build requires an Apple Developer account and should be performed on macOS.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Development 💻
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is built with:
+- [Expo](https://expo.dev)
+- React Native
+- TypeScript
 
-## Join the community
+## License 📄
 
-Join our community of developers creating universal apps.
+This project is private and proprietary.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+For more information about developing with Expo, check out:
+- [Expo documentation](https://docs.expo.dev/)
+- [React Native documentation](https://reactnative.dev/)
